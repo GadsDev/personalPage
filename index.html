@@ -9,90 +9,102 @@
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous">
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!-- GOOGLE FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-    rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- CSS CUSTOM-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header>
-        <div class="header-content">
-            <img src="img/logo.png" alt="GadsTe Logo">
-            <h3 class="title">GadsTe Pagina Pessoal</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Amet ipsa a maxime asperiores vitae impedit accusantium iusto
-                perferendis at illo! Commodi ab quidem nulla distinctio corrupti
-                modi illo voluptas consectetur!</p>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content animated flash">
+            <img src="img/logo.png" alt="Fazt Logo" class="logo">
+            <div class="title">
+                Perfil Profissional Gustavo
+            </div>
+            <div class="text">
+                Dolor est eos dignissimos eos eos reiciendis deleniti neque quisquam. Officia facere pariatur
+                consequuntur soluta!
+            </div>
         </div>
     </header>
 
-    <!-- SERVICES -->
-    <section class="services text-center">
-        <h3 class="title"> Minhas Redes </h3>
+    <!-- Services -->
+    <div class="services text-center">
+        <h3 class="title">Redes</h3>
         <div class="container grid-3">
             <div>
                 <i class="fab fa-linkedin fa-5x"></i>
                 <h3>Linkedin</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nisi? In ducimus optio
-                    sint ea odio dolorum quae assumenda voluptatum numquam et</p>
+                <div>
+                    Consectetur itaque inventore odio tempora velit sunt et repellendus accusantium.
+                </div>
             </div>
             <div>
                 <i class="fab fa-github fa-5x"></i>
                 <h3>GitHub</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nisi? In ducimus optio
-                    sint ea odio dolorum quae assumenda voluptatum numquam et</p>
+                <div>
+                    Consectetur itaque inventore odio tempora velit sunt et repellendus accusantium.
+                </div>
             </div>
             <div>
                 <i class="fab fa-youtube fa-5x"></i>
                 <h3>Youtube</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nisi? In ducimus optio
-                    sint ea odio dolorum quae assumenda voluptatum numquam et</p>
+                <div>
+                    Consectetur itaque inventore odio tempora velit sunt et repellendus accusantium.
+                </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- ABOUT 1-->
+    <!-- About -->
     <section class="about bg-light">
         <div class="container text-center">
             <div class="grid-2">
                 <div class="center">
-                    <i class="fab fa-php fa-10x"></i>
+                    <i class="fab fa-laravel fa-10x"></i>
                 </div>
                 <div>
-                    <h3 class="title">Back Engine pré estruturado com Laravel</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nisi? In ducimus optio
-                    sint ea odio dolorum quae assumenda voluptatum numquam et</p>
+                    <h3 class="title">PHP usando um framework para estrutura - Laravel</h3>
+                    <p>
+                        <span>Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis
+                            ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit
+                            placeat beatae? Autem iure dignissimos maxime ducimus.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About 2-->
+    <section>
+        <div class="container text-center">
+            <div class="grid-2">
+                <div>
+                    <h3 class="title">JavaScript na Back - NodeJs</h3>
+                    <p>
+                        <span>Amet nihil magnam maxime dolor qui veritatis quaerat explicabo fugiat similique. Facilis
+                            ea reprehenderit laboriosam molestias odit officia. Facilis sunt harum tempore suscipit
+                            placeat beatae? Autem iure dignissimos maxime ducimus.</span>
+                    </p>
+                </div>
+                <div class="center">
+                    <i class="fab fa-node fa-10x"></i>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT 2-->
-    <section class="about bg-light">
-            <div class="container text-center">
-                <div class="grid-2">                    
-                    <div>
-                        <h3 class="title">JavaScript no Back, NodeJS</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nisi? In ducimus optio
-                        sint ea odio dolorum quae assumenda voluptatum numquam et</p>
-                    </div>
-                    <div class="center">
-                            <i class="fab fa-node fa-10x"></i>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer text-center bg-light">
-        <p>Criado por Gustavo em 2019 - GadsDev &copy;</p>
+    <!-- Footer -->
+    <footer class="text-center bg-light">
+        <p>GadsDev&copy; - 2019 - Criado por Gustavo</p>
     </footer>
 
 </body>

@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(0, 0, 0, .9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Open Sans' sans-serif;
+
+}
+
+.header::after {
+    content: '';
+
+    background-image: url();
+}
